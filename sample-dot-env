@@ -1,4 +1,4 @@
 # rename this file to .env and add values to run locally. (and remove all comments)
-SECRET_KEY=$(openssl rand -base64 32) # run that in bash to generate a random secret key
+SECRET_KEY=$(openssl rand -base64 256) # run that in bash to generate a random secret key
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
